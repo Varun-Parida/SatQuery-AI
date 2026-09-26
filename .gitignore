@@ -1,0 +1,14 @@
+# Local application artifacts
+data/uploads/*
+data/processed/*
+data/cache/*
+ml/checkpoints/*
+outputs/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/cache/.gitkeep
+!ml/checkpoints/.gitkeep
+!outputs/results/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/evidence/.gitkeep
+!outputs/traces/.gitkeep

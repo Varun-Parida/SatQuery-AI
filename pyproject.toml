@@ -1,0 +1,8 @@
+[project]
+name = "satquery-ai"
+version = "0.1.0"
+description = "Local satellite-imagery AI application"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
