@@ -1,0 +1,38 @@
+# Local application artifacts
+data/uploads/*
+data/processed/*
+data/cache/*
+ml/checkpoints/*
+outputs/*
+
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/cache/.gitkeep
+!ml/checkpoints/.gitkeep
+!outputs/results/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/evidence/.gitkeep
+!outputs/traces/.gitkeep
+
+# Python virtual environment & cache
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend build artifacts
+node_modules/
+dist/
+.DS_Store
+project-tree.txt
+repo-temp/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+satquery-ai/
+
+__pycache__/
+
+*.pyc

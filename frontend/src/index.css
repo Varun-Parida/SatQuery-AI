@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* ============================================================
+   SatQuery AI — Master Design System (SIH Edition)
+   Clean, Scientific, Modern Remote-Sensing Intelligence Platform
+   ============================================================ */
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Primary Palette (Professional Blue) */
+  --color-sat-primary: #2563eb;
+  --color-sat-primary-hover: #1d4ed8;
+  --color-sat-primary-light: #eff6ff;
+  --color-sat-primary-muted: #3b82f6;
+
+  /* Dark Navy / Heading Tones */
+  --color-sat-navy: #0f172a;
+  --color-sat-navy-muted: #1e293b;
+  --color-sat-slate: #334155;
+
+  /* Backgrounds */
+  --color-sat-bg: #f8fafc;
+  --color-sat-bg-surface: #ffffff;
+  --color-sat-bg-subtle: #f1f5f9;
+
+  /* Borders */
+  --color-sat-border: #e2e8f0;
+  --color-sat-border-strong: #cbd5e1;
+
+  /* Semantic status colors */
+  --color-sat-success: #10b981;
+  --color-sat-warning: #f59e0b;
+  --color-sat-error: #ef4444;
+  --color-sat-info: #0284c7;
+}
+
+/* Custom crisp scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Text Selection */
+::selection {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
+
+/* Focus Ring */
+*:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0f172a;
+  font-family: inherit;
+}
+
+/* Comparison slider cursor */
+.comparison-slider {
+  cursor: col-resize;
+}
+
+.image-viewer-grab {
+  cursor: grab;
+}
+.image-viewer-grabbing {
+  cursor: grabbing;
+}
+
+/* Hide default file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Subtle satellite grid backdrop */
+.sat-grid-pattern {
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Satellite hero backdrop */
+.sat-hero-bg {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}

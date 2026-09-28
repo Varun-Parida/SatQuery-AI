@@ -1,0 +1,8 @@
+fastapi<1.0,>=0.110
+pillow<12,>=10
+python-multipart<1.0,>=0.0.9
+uvicorn<1.0,>=0.27
+
+[test]
+pytest<9,>=8
+httpx<1.0,>=0.27
